@@ -1,11 +1,11 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -33,8 +33,10 @@ const count = ref(0)
   </p>
 </template>
 
-<style scoped>
-a {
-  color: #42b983;
+<style lang="scss" scoped>
+p {
+  a {
+    color: #42b983;
+  }
 }
 </style>
